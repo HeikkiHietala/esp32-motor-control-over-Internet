@@ -1,5 +1,5 @@
-# esp32-motor-control-over-Internet
-How to run a motor two ways with a web user interface
+# ESP32 motor control over the Internet
+How to run a motor in both directions with a web user interface
 
 In this system I used the L298H bridge which is described in detail here: HeikkiHietala/esp32-twodirectional-motor-control-over-Internet
 
@@ -19,4 +19,4 @@ On the website, there is a folder called speed, and in it, the file index.php, a
 
 ![user interface](speed%20control.PNG)
 
-Every time you click on the buttons, the system changes the contents of the file speedcontrol.txt and as the ESP32 is set to read the file five times a second, its speed changes according to the value in the file.
+Every time you click on the buttons, the system changes the contents of the file speedcontrol.txt and as the ESP32 is set to read the file twice a second, its speed changes according to the value in the file.
