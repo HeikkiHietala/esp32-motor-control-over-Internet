@@ -18,3 +18,5 @@ The ESP32 is connected to a 9V battery and to the DC motor via the L298H bridge.
 On the website, there is a folder called speed, and in it, the file index.php, and a style sheet. The file creates this user interface:
 
 ![user interface](speed%20control.PNG)
+
+Every time you click on the buttons, the system changes the contents of the file speedcontrol.txt and as the ESP32 is set to read the file five times a second, its speed changes according to the value in the file.
