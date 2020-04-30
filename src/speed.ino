@@ -11,10 +11,10 @@ int motor1Pin2 = 26;
 int enable1Pin = 14; 
 int SpeedVariable = 0;
 int mySwitch = 0;
-int myNetLed = 15;
-int myBootLed = 4;
+int myBootLed = 4; //this led shows the machine is booting and connecting to Internet
+int myNetLed = 15; //this led shows the machine is connected to Internet
 
-int driveValue = 0;
+int driveValue = 0; //speed
 
 // Setting PWM properties
 const int freq = 30000;
@@ -48,7 +48,7 @@ void setup() {
       delay(1000);
   }
 
-    wifiMulti.addAP("moaiwlan", "Ossi1Paavo234");
+    wifiMulti.addAP("YOUR_SSID_HERE", "YOUR_PASSWORD_HERE");
 
 }
 
@@ -80,7 +80,7 @@ void loop() {
 
         HTTPClient http;
 
-        http.begin("http://www.sabulo.com/speed/speedcontrol.txt"); //HTTP
+        http.begin("[your_server_path_here]/speed/speedcontrol.txt"); //HTTP
         int httpCode = http.GET();
         digitalWrite(myNetLed,HIGH);
         digitalWrite(myBootLed,LOW);
