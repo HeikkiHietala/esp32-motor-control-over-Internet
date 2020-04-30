@@ -1,0 +1,9 @@
+[08-Mar-2019 09:16:22 Europe/Helsinki] PHP Parse error:  syntax error, unexpected '""' (T_CONSTANT_ENCAPSED_STRING) in /home/sabuloco/public_html/speed/index.php on line 50
+[08-Mar-2019 09:27:02 Europe/Helsinki] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/sabuloco/public_html/speed/index.php on line 53
+[08-Mar-2019 09:34:01 Europe/Helsinki] PHP Parse error:  syntax error, unexpected end of file in /home/sabuloco/public_html/speed/index.php on line 62
+[08-Mar-2019 09:35:44 Europe/Helsinki] PHP Parse error:  syntax error, unexpected end of file in /home/sabuloco/public_html/speed/index.php on line 62
+[08-Mar-2019 09:35:45 Europe/Helsinki] PHP Parse error:  syntax error, unexpected end of file in /home/sabuloco/public_html/speed/index.php on line 62
+[08-Mar-2019 09:38:01 Europe/Helsinki] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/sabuloco/public_html/speed/index.php on line 53
+[08-Mar-2019 09:38:03 Europe/Helsinki] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/sabuloco/public_html/speed/index.php on line 53
+[08-Mar-2019 09:41:12 Europe/Helsinki] PHP Parse error:  syntax error, unexpected end of file in /home/sabuloco/public_html/speed/index.php on line 68
+[08-Mar-2019 09:58:08 Europe/Helsinki] PHP Parse error:  syntax error, unexpected 'red' (T_STRING) in /home/sabuloco/public_html/speed/index.php on line 50
