@@ -21,6 +21,6 @@ On the website, there is a folder called speed, and in it, the file index.php, a
 
 Every time you click on the buttons, the system changes the contents of the file speedcontrol.txt and as the ESP32 is set to read the file twice a second, its speed changes according to the value in the file.
 
-[![Watch the video]()](https://www.youtube.com/watch?v=sizY2kcHO2Y)
+[![Watch the video](capture.png)](https://www.youtube.com/watch?v=sizY2kcHO2Y)
 
 
