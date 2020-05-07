@@ -15,6 +15,10 @@ The system consists of one C language INO file, which is to be edited for your n
 
 The ESP32 is connected to a 9V battery and to the DC motor via the L298H bridge. The battery is also wired to the bridge. 
 
+This is the connection scheme:
+
+![connection scheme](donald%20scheme.PNG)
+
 On the website, there is a folder called speed, and in it, the file index.php, and a style sheet. The file creates this user interface:
 
 ![user interface](speed%20control.PNG)
