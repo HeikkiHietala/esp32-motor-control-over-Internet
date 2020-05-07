@@ -15,7 +15,7 @@ The system consists of one C language INO file, which is to be edited for your n
 
 The ESP32 is connected to a 9V battery and to the DC motor via the L298H bridge. The battery is also wired to the bridge. 
 
-This is the connection scheme:
+This is the connection scheme, but the Arduino Micro is just a placeholder - Fritzing doesn't have ESP32 yet.
 
 ![connection scheme](donald%20scheme.PNG)
 
