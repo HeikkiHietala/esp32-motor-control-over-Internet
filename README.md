@@ -1,7 +1,7 @@
 # ESP32 motor control over the Internet
 How to run a motor in both directions with a web user interface
 
-In this system I used the L298H bridge which is described in detail here: HeikkiHietala/esp32-twodirectional-motor-control-over-Internet
+See https://www.sabulo.com/sb/3d-printing-2/the-donald-duck-hypnotizing-machine-with-iot/ for details on how to build this.
 
 The required parts are
 
